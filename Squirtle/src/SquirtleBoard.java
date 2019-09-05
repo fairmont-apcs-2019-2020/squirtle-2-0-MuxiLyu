@@ -22,6 +22,10 @@ public class SquirtleBoard extends Board {
 	 	squirtle.setLocation(0, 0);
 	 	add(squirtle);
 	 	
+	 	SquirtleThing squirtleII = new SquirtleThing();
+	 	squirtleII.setLocation(5, 0);
+	 	add(squirtleII);
+	 	
 	 	// Create a BulbasaurThing at 0, 4
 	 	BulbasaurThing bulbasaur = new BulbasaurThing();
 	 	bulbasaur.setLocation(4, 0);
